@@ -15,4 +15,5 @@ tput setaf 2 ; tput bold ; printf '%s' "speedtest " ; tput setaf 7 ; printf '%s'
 tput setaf 2 ; tput bold ; printf '%s' "banner " ; tput setaf 7 ; printf '%s' "- " ; tput setaf 3 ; echo "Irá por um texto no log de seu HTTP Injector" ; echo "" ;
 tput setaf 2 ; tput bold ; printf '%s' "bloquearfirewall " ; tput setaf 7 ; printf '%s' "- " ; tput setaf 3 ; echo "Irá bloquear torrent etc..." ; echo "" ;
 tput setaf 2 ; tput bold ; printf '%s' "detalhes " ; tput setaf 7 ; printf '%s' "- " ; tput setaf 3 ; echo "Mostrará o detalhes do SISTEMA da VPS" ; echo "" ;
+tput setaf 2 ; tput bold ; printf '%s' "proxy " ; tput setaf 7 ; printf '%s' "- " ; tput setaf 3 ; echo "Irá liberar seu IP para usar como proxy em outras SSH" ; echo "" ;
 tput sgr0
