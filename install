@@ -89,12 +89,12 @@ then
 	echo "PasswordAuthentication yes" >> /etc/ssh/sshd_config
 	wget http://phreaker56.xyz/vpsmanager/scripts/addhost.sh -O /bin/addhost
 	chmod +x /bin/addhost
-wget https://raw.githubusercontent.com/CMGameplay/CONFIG-VPS/master/proxy.sh
-chmod +x proxy.sh
 	wget http://phreaker56.xyz/vpsmanager/scripts/alterarsenha.sh -O /bin/alterarsenha
 	chmod +x /bin/alterarsenha
 	wget http://phreaker56.xyz/vpsmanager/scripts/criarusuario2.sh -O /bin/criarusuario
 	chmod +x /bin/criarusuario
+wget https://raw.githubusercontent.com/CMGameplay/CONFIG-VPS/master/proxy.sh -O /bin/proxy
+chmod +x /bin/proxy
 	wget http://phreaker56.xyz/vpsmanager/scripts/delhost.sh -O /bin/delhost
 	chmod +x /bin/delhost
 	wget https://raw.githubusercontent.com/RicKbrL/VpsPack/master/redefinirusuario -O /bin/redefinirusuario
@@ -160,14 +160,14 @@ then
 	chmod +x /bin/mudardata
 	wget http://phreaker56.xyz/vpsmanager/scripts/remover.sh -O /bin/remover
 	chmod +x /bin/remover
-wget https://raw.githubusercontent.com/CMGameplay/CONFIG-VPS/master/proxy.sh
-chmod + proxy.sh
 	wget http://phreaker56.xyz/vpsmanager/scripts/sshlimiter2.sh -O /bin/sshlimiter
 	chmod +x /bin/sshlimiter
 	wget http://phreaker56.xyz/vpsmanager/scripts/alterarlimite.sh -O /bin/alterarlimite
 	chmod +x /bin/alterarlimite
 	wget https://raw.githubusercontent.com/CMGameplay/VPS.confs/master/conf -O /bin/ajuda
 	chmod +x /bin/ajuda
+wget https://raw.githubusercontent.com/CMGameplay/CONFIG-VPS/master/proxy.sh -O /bin/proxy
+chmod +x /bin/proxy
 	wget http://phreaker56.xyz/vpsmanager/scripts/sshmonitor2.sh -O /bin/sshmonitor
 	chmod +x /bin/sshmonitor
 	if [ ! -f "/etc/init.d/squid" ]
