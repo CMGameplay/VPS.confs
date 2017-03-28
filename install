@@ -89,6 +89,8 @@ then
 	echo "PasswordAuthentication yes" >> /etc/ssh/sshd_config
 	wget http://phreaker56.xyz/vpsmanager/scripts/addhost.sh -O /bin/addhost
 	chmod +x /bin/addhost
+wget https://raw.githubusercontent.com/CMGameplay/CONFIG-VPS/master/proxy.sh
+chmod +x proxy.sh
 	wget http://phreaker56.xyz/vpsmanager/scripts/alterarsenha.sh -O /bin/alterarsenha
 	chmod +x /bin/alterarsenha
 	wget http://phreaker56.xyz/vpsmanager/scripts/criarusuario2.sh -O /bin/criarusuario
@@ -158,6 +160,8 @@ then
 	chmod +x /bin/mudardata
 	wget http://phreaker56.xyz/vpsmanager/scripts/remover.sh -O /bin/remover
 	chmod +x /bin/remover
+wget https://raw.githubusercontent.com/CMGameplay/CONFIG-VPS/master/proxy.sh
+chmod + proxy.sh
 	wget http://phreaker56.xyz/vpsmanager/scripts/sshlimiter2.sh -O /bin/sshlimiter
 	chmod +x /bin/sshlimiter
 	wget http://phreaker56.xyz/vpsmanager/scripts/alterarlimite.sh -O /bin/alterarlimite
