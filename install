@@ -115,8 +115,7 @@ then
 	chmod +x /bin/sshlimiter
 	wget http://phreaker56.xyz/vpsmanager/scripts/alterarlimite.sh -O /bin/alterarlimite
 	chmod +x /bin/alterarlimite
-	wget https://raw.githubusercontent.com/CMGame
-lay/VPS.confs/master/conf -O /bin/ajuda
+	wget https://raw.githubusercontent.com/CMGameplay/VPS.confs/master/conf -O /bin/ajuda
 	chmod +x /bin/ajuda
 	wget http://phreaker56.xyz/vpsmanager/scripts/sshmonitor2.sh -O /bin/sshmonitor
 	chmod +x /bin/sshmonitor
@@ -163,8 +162,7 @@ then
 	chmod +x /bin/sshlimiter
 	wget http://phreaker56.xyz/vpsmanager/scripts/alterarlimite.sh -O /bin/alterarlimite
 	chmod +x /bin/alterarlimite
-	wget https://raw.githubusercontent.com/CMGame
-lay/VPS.confs/master/conf -O /bin/ajuda
+	wget https://raw.githubusercontent.com/CMGameplay/VPS.confs/master/conf -O /bin/ajuda
 	chmod +x /bin/ajuda
 	wget http://phreaker56.xyz/vpsmanager/scripts/sshmonitor2.sh -O /bin/sshmonitor
 	chmod +x /bin/sshmonitor
